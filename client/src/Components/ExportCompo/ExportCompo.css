@@ -1,0 +1,58 @@
+.custom-file-input {
+    color: transparent;
+    width: 274px !important;
+  }
+
+  .label--file{
+    position: fixed;
+    top:148px;
+    left: 410px;
+    font-weight: 700;
+    font-size: 10pt;
+    color: rgb(13, 25, 64);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+    pointer-events: none;
+  }
+  .custom-file-input::-webkit-file-upload-button {
+    visibility: hidden;
+    width: 250px;
+  }
+  .custom-file-input::before {
+    content: '';
+    color: black;
+    display: inline-block;
+    background: -webkit-linear-gradient(top, #f9f9f9, #e3e3e3);
+    border: 1px solid #999;
+    border-radius: 3px;
+    padding: 5px 8px;
+    width: 250px !important;
+    padding: 0.6rem 0.5rem;
+    outline: none;
+    white-space: nowrap;
+    -webkit-user-select: none;
+    cursor: pointer;
+    text-shadow: 1px 1px #fff;
+    font-weight: 700;
+    height: 17px;
+    font-size: 10pt;
+    border: 3px solid  rgb(13, 25, 64);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+    transition: all 0.3s;
+
+    margin-bottom: 10px;
+  }
+  .custom-file-input:hover::before {
+    border-color: black;
+    width: 250px;
+  }
+  .custom-file-input:active {
+    outline: 0;
+    width: 250px;
+  }
+  .custom-file-input:active::before {
+    background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9); 
+    width: 250px;
+  }
+  

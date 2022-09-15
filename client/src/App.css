@@ -1,0 +1,11 @@
+body{
+    overflow-x: hidden;
+}
+
+.loading-container{
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
